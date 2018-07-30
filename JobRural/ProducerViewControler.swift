@@ -10,6 +10,13 @@ import UIKit
 
 class ProducerViewControler: UIViewController {
 
+    @IBAction func backJobs(_ sender: Any) {
+        performSegue(withIdentifier: "backJobs", sender: nil)
+    }
+    @IBAction func backJobs2(_ sender: Any) {
+        performSegue(withIdentifier: "backJobs2", sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

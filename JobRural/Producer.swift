@@ -19,7 +19,7 @@ class Producer: User {
     var amountOfWorkers: Int?
     var rankGeneral: Int?
     
-    init(idUser: Int, emailUser: String, passwordUser: String, name: String, lastName: String, gender: String, age: Int, telephone: Int, nation: String, state: String, amountOfWorkers: Int, rankGeneral: Int){
+    init(idUser: Int, emailUser: String, passwordUser: String, typeUser: Int, name: String, lastName: String, gender: String, age: Int, telephone: Int, nation: String, state: String, amountOfWorkers: Int, rankGeneral: Int){
         self.name = name
         self.lastName = lastName
         self.gender = gender
@@ -29,6 +29,6 @@ class Producer: User {
         self.state = state
         self.amountOfWorkers = amountOfWorkers
         self.rankGeneral = rankGeneral
-        super.init(id: idUser, email: emailUser, password: passwordUser)
+        super.init(id: idUser, email: emailUser, password: passwordUser, type: typeUser)
     }
 }

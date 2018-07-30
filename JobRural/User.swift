@@ -12,10 +12,12 @@ class User {
     var id: Int?
     var email: String?
     var password: String?
+    var type: Int?
     
-    init(id: Int, email: String, password: String){
+    init(id: Int, email: String, password: String, type: Int){
         self.id = id
         self.email = email
         self.password = password
+        self.type = type
     }
 }

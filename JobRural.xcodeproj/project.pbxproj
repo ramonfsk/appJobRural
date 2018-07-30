@@ -124,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				3F0F0028210B423F0025C3E1 /* Worker.swift */,
-				3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */,
 				3F0F007D210B65AE0025C3E1 /* Worker.storyboard */,
+				3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */,
 			);
 			name = WorkerDAO;
 			sourceTree = "<group>";

@@ -21,7 +21,7 @@ class Worker: User{
     var amountOfWork: Int?
     var rankGeneral: Int?
 
-    init(idUser: Int, emailUser: String, passwordUser: String, name: String, lastName: String, gender: String, age: Int, telephone: Int, nation: String, state: String, educationalLevel: String, qualifications: String, amountOfWork: Int, rankGeneral: Int){
+    init(idUser: Int, emailUser: String, passwordUser: String, typeUser: Int, name: String, lastName: String, gender: String, age: Int, telephone: Int, nation: String, state: String, educationalLevel: String, qualifications: String, amountOfWork: Int, rankGeneral: Int){
         self.name = name
         self.lastName = lastName
         self.gender = gender
@@ -32,7 +32,7 @@ class Worker: User{
         self.educationalLevel = educationalLevel
         self.amountOfWork = amountOfWork
         self.rankGeneral = rankGeneral
-        super.init(id: idUser, email: emailUser, password: passwordUser)
+        super.init(id: idUser, email: emailUser, password: passwordUser, type: typeUser)
     }
 
 }

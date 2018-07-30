@@ -10,6 +10,9 @@ import UIKit
 
 class WorkerViewController: UIViewController {
 
+    @IBAction func backJobs(_ sender: Any) {
+        performSegue(withIdentifier: "backJobs", sender: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

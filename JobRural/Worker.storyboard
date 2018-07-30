@@ -12,7 +12,7 @@
         <!--Vagas-->
         <scene sceneID="C6C-AI-Wmc">
             <objects>
-                <viewController id="umw-ht-PdC" sceneMemberID="viewController">
+                <viewController id="umw-ht-PdC" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q88-ZV-xJm"/>
                         <viewControllerLayoutGuide type="bottom" id="Q0U-zL-x9r"/>
@@ -58,7 +58,7 @@
         <!--Seletivas-->
         <scene sceneID="vET-Yb-ObF">
             <objects>
-                <viewController id="QDO-4j-Ldk" sceneMemberID="viewController">
+                <viewController id="QDO-4j-Ldk" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YLV-er-Dda"/>
                         <viewControllerLayoutGuide type="bottom" id="dLI-GC-0mY"/>
@@ -96,12 +96,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eX-9M-06m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="418" y="359"/>
+            <point key="canvasLocation" x="417" y="369"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="jPO-kO-vAS">
             <objects>
-                <viewController id="ZV2-rS-q53" sceneMemberID="viewController">
+                <viewController id="ZV2-rS-q53" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y03-SK-GMa"/>
                         <viewControllerLayoutGuide type="bottom" id="PWJ-2y-XH4"/>
@@ -257,7 +257,7 @@
         <!--Historico-->
         <scene sceneID="FFC-AI-Ehq">
             <objects>
-                <viewController id="h14-fh-rhR" sceneMemberID="viewController">
+                <viewController id="h14-fh-rhR" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JFu-gh-Jpv"/>
                         <viewControllerLayoutGuide type="bottom" id="Fn9-0y-S5Z"/>
@@ -317,10 +317,10 @@
             </objects>
             <point key="canvasLocation" x="-1210" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Worker View Controller-->
         <scene sceneID="nXv-Z5-47L">
             <objects>
-                <viewController id="DYw-vF-0f9" sceneMemberID="viewController">
+                <viewController id="DYw-vF-0f9" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lZm-1x-mZ5"/>
                         <viewControllerLayoutGuide type="bottom" id="r9m-Y6-uwb"/>
@@ -466,17 +466,20 @@
                                 <state key="normal" title="Voltar">
                                     <color key="titleColor" red="0.94817653489999998" green="1" blue="0.9597616846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="backJobs:" destination="DYw-vF-0f9" eventType="touchUpInside" id="tKk-TU-2La"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="umw-ht-PdC" kind="show" id="nD5-RA-bxL"/>
+                        <segue destination="umw-ht-PdC" kind="show" identifier="backJobs" id="nD5-RA-bxL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="503-69-Isq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1246" y="-487"/>
+            <point key="canvasLocation" x="1242" y="-313"/>
         </scene>
     </scenes>
     <resources>
