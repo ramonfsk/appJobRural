@@ -14,12 +14,12 @@
 		3F0F0069210B49F80025C3E1 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0068210B49F80025C3E1 /* Producer.swift */; };
 		3F0F006B210B4FDD0025C3E1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006A210B4FDD0025C3E1 /* User.swift */; };
 		3F0F006D210B52FD0025C3E1 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006C210B52FD0025C3E1 /* Jobs.swift */; };
-		3F0F0072210B64810025C3E1 /* Jobs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0071210B64810025C3E1 /* Jobs.storyboard */; };
-		3F0F0074210B64CA0025C3E1 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0073210B64CA0025C3E1 /* JobsViewController.swift */; };
 		3F0F0078210B65060025C3E1 /* Producer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0077210B65060025C3E1 /* Producer.storyboard */; };
 		3F0F007A210B65660025C3E1 /* ProducerViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */; };
 		3F0F007C210B659E0025C3E1 /* WorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */; };
 		3F0F007E210B65AE0025C3E1 /* Worker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F007D210B65AE0025C3E1 /* Worker.storyboard */; };
+		3F0F0081210F2FD90025C3E1 /* 4stars__nbqmqm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */; };
+		3F0F0085210F40FD0025C3E1 /* Historic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0084210F40FD0025C3E1 /* Historic.swift */; };
 		3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */; };
 		3F0FFFFA210B3A380025C3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF9210B3A380025C3E1 /* ViewController.swift */; };
 		3F0FFFFD210B3A390025C3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FFFFB210B3A390025C3E1 /* Main.storyboard */; };
@@ -56,12 +56,12 @@
 		3F0F0068210B49F80025C3E1 /* Producer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producer.swift; sourceTree = "<group>"; };
 		3F0F006A210B4FDD0025C3E1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F0F006C210B52FD0025C3E1 /* Jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
-		3F0F0071210B64810025C3E1 /* Jobs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Jobs.storyboard; sourceTree = "<group>"; };
-		3F0F0073210B64CA0025C3E1 /* JobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
 		3F0F0077210B65060025C3E1 /* Producer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Producer.storyboard; sourceTree = "<group>"; };
 		3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerViewControler.swift; sourceTree = "<group>"; };
 		3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerViewController.swift; sourceTree = "<group>"; };
 		3F0F007D210B65AE0025C3E1 /* Worker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Worker.storyboard; sourceTree = "<group>"; };
+		3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4stars__nbqmqm.png; path = ../../../../Downloads/4stars__nbqmqm.png; sourceTree = "<group>"; };
+		3F0F0084210F40FD0025C3E1 /* Historic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historic.swift; sourceTree = "<group>"; };
 		3F0FFFF4210B3A380025C3E1 /* JobRural.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobRural.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0FFFF9210B3A380025C3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,8 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				3F0F006C210B52FD0025C3E1 /* Jobs.swift */,
-				3F0F0071210B64810025C3E1 /* Jobs.storyboard */,
-				3F0F0073210B64CA0025C3E1 /* JobsViewController.swift */,
 			);
 			name = JobsDAO;
 			sourceTree = "<group>";
@@ -140,6 +138,44 @@
 				3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */,
 			);
 			name = ProducerDAO;
+			sourceTree = "<group>";
+		};
+		3F0F007F210F2FA40025C3E1 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+		3F0F0082210F40A40025C3E1 /* HistoricDAO */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F0084210F40FD0025C3E1 /* Historic.swift */,
+			);
+			name = HistoricDAO;
+			sourceTree = "<group>";
+		};
+		3F0F0083210F40D30025C3E1 /* SelectiveDAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SelectiveDAO;
+			sourceTree = "<group>";
+		};
+		3F0F0086210F417D0025C3E1 /* UserDAO */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F006A210B4FDD0025C3E1 /* User.swift */,
+			);
+			name = UserDAO;
+			sourceTree = "<group>";
+		};
+		3F0F0087210F419A0025C3E1 /* RegisterDAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RegisterDAO;
 			sourceTree = "<group>";
 		};
 		3F0FFFEB210B3A380025C3E1 = {
@@ -165,13 +201,17 @@
 		3F0FFFF6210B3A380025C3E1 /* JobRural */ = {
 			isa = PBXGroup;
 			children = (
+				3F0F0087210F419A0025C3E1 /* RegisterDAO */,
+				3F0F0086210F417D0025C3E1 /* UserDAO */,
+				3F0F0083210F40D30025C3E1 /* SelectiveDAO */,
+				3F0F0082210F40A40025C3E1 /* HistoricDAO */,
+				3F0F007F210F2FA40025C3E1 /* imgs */,
 				3F0F0076210B64E10025C3E1 /* ProducerDAO */,
 				3F0F0075210B64D40025C3E1 /* WorkerDAO */,
 				3F0F0070210B64150025C3E1 /* JobsDAO */,
 				3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */,
 				3F0FFFF9210B3A380025C3E1 /* ViewController.swift */,
 				3F0FFFFB210B3A390025C3E1 /* Main.storyboard */,
-				3F0F006A210B4FDD0025C3E1 /* User.swift */,
 				3F0FFFFE210B3A390025C3E1 /* Assets.xcassets */,
 				3F0F0000210B3A390025C3E1 /* LaunchScreen.storyboard */,
 				3F0F0003210B3A390025C3E1 /* Info.plist */,
@@ -301,7 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0F0072210B64810025C3E1 /* Jobs.storyboard in Resources */,
+				3F0F0081210F2FD90025C3E1 /* 4stars__nbqmqm.png in Resources */,
 				3F0F0078210B65060025C3E1 /* Producer.storyboard in Resources */,
 				3F0F0002210B3A390025C3E1 /* LaunchScreen.storyboard in Resources */,
 				3F0FFFFF210B3A390025C3E1 /* Assets.xcassets in Resources */,
@@ -339,9 +379,9 @@
 				3F0F0029210B423F0025C3E1 /* Worker.swift in Sources */,
 				3F0F006B210B4FDD0025C3E1 /* User.swift in Sources */,
 				3F0F007A210B65660025C3E1 /* ProducerViewControler.swift in Sources */,
-				3F0F0074210B64CA0025C3E1 /* JobsViewController.swift in Sources */,
 				3F0F007C210B659E0025C3E1 /* WorkerViewController.swift in Sources */,
 				3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */,
+				3F0F0085210F40FD0025C3E1 /* Historic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
