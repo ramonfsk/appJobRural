@@ -13,13 +13,16 @@
 		3F0F0029210B423F0025C3E1 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0028210B423F0025C3E1 /* Worker.swift */; };
 		3F0F0069210B49F80025C3E1 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0068210B49F80025C3E1 /* Producer.swift */; };
 		3F0F006B210B4FDD0025C3E1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006A210B4FDD0025C3E1 /* User.swift */; };
-		3F0F006D210B52FD0025C3E1 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006C210B52FD0025C3E1 /* Jobs.swift */; };
+		3F0F006D210B52FD0025C3E1 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006C210B52FD0025C3E1 /* Job.swift */; };
 		3F0F0078210B65060025C3E1 /* Producer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0077210B65060025C3E1 /* Producer.storyboard */; };
 		3F0F007A210B65660025C3E1 /* ProducerViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */; };
-		3F0F007C210B659E0025C3E1 /* WorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */; };
 		3F0F007E210B65AE0025C3E1 /* Worker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F007D210B65AE0025C3E1 /* Worker.storyboard */; };
 		3F0F0081210F2FD90025C3E1 /* 4stars__nbqmqm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */; };
 		3F0F0085210F40FD0025C3E1 /* Historic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0084210F40FD0025C3E1 /* Historic.swift */; };
+		3F0F008B2110A09A0025C3E1 /* DetailsJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008A2110A09A0025C3E1 /* DetailsJobViewController.swift */; };
+		3F0F008D2110ADBA0025C3E1 /* SelectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008C2110ADBA0025C3E1 /* SelectiveViewController.swift */; };
+		3F0F008F2110ADF40025C3E1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008E2110ADF40025C3E1 /* ProfileViewController.swift */; };
+		3F0F00912110AE390025C3E1 /* ListOfVacanciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00902110AE390025C3E1 /* ListOfVacanciesViewController.swift */; };
 		3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */; };
 		3F0FFFFA210B3A380025C3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF9210B3A380025C3E1 /* ViewController.swift */; };
 		3F0FFFFD210B3A390025C3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FFFFB210B3A390025C3E1 /* Main.storyboard */; };
@@ -55,13 +58,16 @@
 		3F0F0028210B423F0025C3E1 /* Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 		3F0F0068210B49F80025C3E1 /* Producer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producer.swift; sourceTree = "<group>"; };
 		3F0F006A210B4FDD0025C3E1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		3F0F006C210B52FD0025C3E1 /* Jobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		3F0F006C210B52FD0025C3E1 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		3F0F0077210B65060025C3E1 /* Producer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Producer.storyboard; sourceTree = "<group>"; };
 		3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerViewControler.swift; sourceTree = "<group>"; };
-		3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerViewController.swift; sourceTree = "<group>"; };
 		3F0F007D210B65AE0025C3E1 /* Worker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Worker.storyboard; sourceTree = "<group>"; };
 		3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4stars__nbqmqm.png; path = ../../../../Downloads/4stars__nbqmqm.png; sourceTree = "<group>"; };
 		3F0F0084210F40FD0025C3E1 /* Historic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historic.swift; sourceTree = "<group>"; };
+		3F0F008A2110A09A0025C3E1 /* DetailsJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsJobViewController.swift; sourceTree = "<group>"; };
+		3F0F008C2110ADBA0025C3E1 /* SelectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectiveViewController.swift; sourceTree = "<group>"; };
+		3F0F008E2110ADF40025C3E1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3F0F00902110AE390025C3E1 /* ListOfVacanciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfVacanciesViewController.swift; sourceTree = "<group>"; };
 		3F0FFFF4210B3A380025C3E1 /* JobRural.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobRural.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0FFFF9210B3A380025C3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +121,7 @@
 		3F0F0070210B64150025C3E1 /* JobsDAO */ = {
 			isa = PBXGroup;
 			children = (
-				3F0F006C210B52FD0025C3E1 /* Jobs.swift */,
+				3F0F006C210B52FD0025C3E1 /* Job.swift */,
 			);
 			name = JobsDAO;
 			sourceTree = "<group>";
@@ -125,7 +131,10 @@
 			children = (
 				3F0F0028210B423F0025C3E1 /* Worker.swift */,
 				3F0F007D210B65AE0025C3E1 /* Worker.storyboard */,
-				3F0F007B210B659E0025C3E1 /* WorkerViewController.swift */,
+				3F0F008A2110A09A0025C3E1 /* DetailsJobViewController.swift */,
+				3F0F008C2110ADBA0025C3E1 /* SelectiveViewController.swift */,
+				3F0F008E2110ADF40025C3E1 /* ProfileViewController.swift */,
+				3F0F00902110AE390025C3E1 /* ListOfVacanciesViewController.swift */,
 			);
 			name = WorkerDAO;
 			sourceTree = "<group>";
@@ -373,13 +382,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0F006D210B52FD0025C3E1 /* Jobs.swift in Sources */,
+				3F0F006D210B52FD0025C3E1 /* Job.swift in Sources */,
+				3F0F00912110AE390025C3E1 /* ListOfVacanciesViewController.swift in Sources */,
 				3F0FFFFA210B3A380025C3E1 /* ViewController.swift in Sources */,
 				3F0F0069210B49F80025C3E1 /* Producer.swift in Sources */,
+				3F0F008D2110ADBA0025C3E1 /* SelectiveViewController.swift in Sources */,
+				3F0F008B2110A09A0025C3E1 /* DetailsJobViewController.swift in Sources */,
 				3F0F0029210B423F0025C3E1 /* Worker.swift in Sources */,
+				3F0F008F2110ADF40025C3E1 /* ProfileViewController.swift in Sources */,
 				3F0F006B210B4FDD0025C3E1 /* User.swift in Sources */,
 				3F0F007A210B65660025C3E1 /* ProducerViewControler.swift in Sources */,
-				3F0F007C210B659E0025C3E1 /* WorkerViewController.swift in Sources */,
 				3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */,
 				3F0F0085210F40FD0025C3E1 /* Historic.swift in Sources */,
 			);
@@ -605,6 +617,7 @@
 				3F0F001E210B3A390025C3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0F001F210B3A390025C3E1 /* Build configuration list for PBXNativeTarget "JobRuralTests" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +626,7 @@
 				3F0F0021210B3A390025C3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0F0022210B3A390025C3E1 /* Build configuration list for PBXNativeTarget "JobRuralUITests" */ = {
 			isa = XCConfigurationList;
@@ -621,6 +635,7 @@
 				3F0F0024210B3A390025C3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0FFFEF210B3A380025C3E1 /* Build configuration list for PBXProject "JobRural" */ = {
 			isa = XCConfigurationList;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9Eh-Mx-GfI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dWK-jl-7YR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -57,13 +57,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Vagas" id="S6J-ot-6gm"/>
                     <connections>
-                        <segue destination="u4G-19-ue9" kind="show" id="gQi-7Z-xhU"/>
-                        <segue destination="dvt-lG-kHs" kind="show" id="oja-UX-Mue"/>
+                        <segue destination="u4G-19-ue9" kind="show" identifier="goNewJob" id="gQi-7Z-xhU"/>
+                        <segue destination="dvt-lG-kHs" kind="show" identifier="goUpdateJob" id="oja-UX-Mue"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfF-mj-jxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="416.80000000000001" y="-312.59370314842579"/>
+            <point key="canvasLocation" x="-217" y="-1015"/>
         </scene>
         <!--Seletivas-->
         <scene sceneID="yqN-XG-PyC">
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9W-WO-Tpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="418" y="359"/>
+            <point key="canvasLocation" x="108" y="-142"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="2dU-eB-MnX">
@@ -262,7 +262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pAF-pb-tag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="-634"/>
+            <point key="canvasLocation" x="-60" y="692"/>
         </scene>
         <!--Historico-->
         <scene sceneID="ghn-NW-t29">
@@ -305,7 +305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PyH-2g-ZFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="716"/>
+            <point key="canvasLocation" x="1034" y="356"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VmZ-s9-Eap">
@@ -317,10 +317,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9Eh-Mx-GfI" kind="relationship" relationship="viewControllers" id="gOg-Ke-j1q"/>
                         <segue destination="kdZ-bv-ttA" kind="relationship" relationship="viewControllers" id="gPv-zc-d3p"/>
                         <segue destination="12Q-wy-3un" kind="relationship" relationship="viewControllers" id="XSy-S1-B89"/>
                         <segue destination="VdI-qJ-jBg" kind="relationship" relationship="viewControllers" id="2bH-OH-643"/>
+                        <segue destination="9Eh-Mx-GfI" kind="relationship" relationship="viewControllers" id="gOg-Ke-j1q"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="enO-kO-dJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -469,12 +469,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="kdZ-bv-ttA" kind="show" identifier="backJobs" id="lSN-x2-sVD"/>
+                        <segue destination="dWK-jl-7YR" kind="show" id="pib-nE-BgY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfK-HZ-Vr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1256.8" y="-539.28035982008998"/>
+            <point key="canvasLocation" x="1686" y="-632"/>
         </scene>
         <!--Producer View Controler-->
         <scene sceneID="3qu-Ke-Npx">
@@ -642,18 +642,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="kdZ-bv-ttA" kind="show" identifier="backJobs2" id="1jI-do-gE9"/>
+                        <segue destination="dWK-jl-7YR" kind="show" identifier="backToUpdateJob" id="0XG-bM-hrm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JpE-2X-dVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257" y="134"/>
+            <point key="canvasLocation" x="930" y="-1214"/>
         </scene>
     </scenes>
     <resources>
         <image name="4stars__nbqmqm.png" width="1138" height="287"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1jI-do-gE9"/>
+        <segue reference="0XG-bM-hrm"/>
     </inferredMetricsTieBreakers>
 </document>

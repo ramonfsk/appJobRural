@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZV2-rS-q53">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ztI-2k-WeC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Vagas-->
         <scene sceneID="C6C-AI-Wmc">
             <objects>
-                <viewController id="umw-ht-PdC" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="umw-ht-PdC" customClass="ListOfVacanciesViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q88-ZV-xJm"/>
                         <viewControllerLayoutGuide type="bottom" id="Q0U-zL-x9r"/>
@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="eCr-e8-Zxz">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" id="eCr-e8-Zxz">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eCr-e8-Zxz" id="3d3-R4-YdX">
@@ -35,6 +35,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="umw-ht-PdC" id="wyp-Mv-DRg"/>
+                                    <outlet property="delegate" destination="umw-ht-PdC" id="cJo-YE-85R"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lista de Vagas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFN-JA-Wu1">
                                 <rect key="frame" x="16" y="28" width="343" height="39"/>
@@ -48,17 +52,17 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Vagas" id="yWy-cI-L1b"/>
                     <connections>
-                        <segue destination="DYw-vF-0f9" kind="show" id="jhD-cq-Sdo"/>
+                        <segue destination="DYw-vF-0f9" kind="show" identifier="goDetailsJob" id="jhD-cq-Sdo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYy-rf-kr2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="416.80000000000001" y="-312.59370314842579"/>
+            <point key="canvasLocation" x="-1" y="-906"/>
         </scene>
         <!--Seletivas-->
         <scene sceneID="vET-Yb-ObF">
             <objects>
-                <viewController id="QDO-4j-Ldk" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QDO-4j-Ldk" customClass="SelectiveViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YLV-er-Dda"/>
                         <viewControllerLayoutGuide type="bottom" id="dLI-GC-0mY"/>
@@ -96,12 +100,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eX-9M-06m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="417" y="369"/>
+            <point key="canvasLocation" x="217" y="-193"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="jPO-kO-vAS">
             <objects>
-                <viewController id="ZV2-rS-q53" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZV2-rS-q53" customClass="ProfileViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y03-SK-GMa"/>
                         <viewControllerLayoutGuide type="bottom" id="PWJ-2y-XH4"/>
@@ -252,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U30-yn-kFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="-634"/>
+            <point key="canvasLocation" x="217" y="516"/>
         </scene>
         <!--Historico-->
         <scene sceneID="FFC-AI-Ehq">
@@ -295,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntG-rO-pD7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="716"/>
+            <point key="canvasLocation" x="1105" y="134"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="udO-Y1-J5B">
@@ -307,20 +311,20 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ZV2-rS-q53" kind="relationship" relationship="viewControllers" id="Bis-sQ-O9S"/>
                         <segue destination="umw-ht-PdC" kind="relationship" relationship="viewControllers" id="DgU-dr-Yxd"/>
                         <segue destination="QDO-4j-Ldk" kind="relationship" relationship="viewControllers" id="RCe-um-ENW"/>
                         <segue destination="h14-fh-rhR" kind="relationship" relationship="viewControllers" id="dvk-Xb-5ys"/>
+                        <segue destination="ZV2-rS-q53" kind="relationship" relationship="viewControllers" id="Bis-sQ-O9S"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eoY-Z5-siD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1210" y="134"/>
         </scene>
-        <!--Worker View Controller-->
+        <!--Details Job View Controller-->
         <scene sceneID="nXv-Z5-47L">
             <objects>
-                <viewController id="DYw-vF-0f9" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DYw-vF-0f9" customClass="DetailsJobViewController" customModule="JobRural" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lZm-1x-mZ5"/>
                         <viewControllerLayoutGuide type="bottom" id="r9m-Y6-uwb"/>
@@ -434,14 +438,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OK5-1b-SuG">
-                                <rect key="frame" x="16" y="376" width="343" height="196"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descrição" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xd-Co-wWU">
                                 <rect key="frame" x="16" y="329" width="184" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -467,25 +463,37 @@
                                     <color key="titleColor" red="0.94817653489999998" green="1" blue="0.9597616846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="backJobs:" destination="DYw-vF-0f9" eventType="touchUpInside" id="tKk-TU-2La"/>
+                                    <action selector="backJobs:" destination="DYw-vF-0f9" eventType="touchUpInside" id="yif-pG-q6T"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfo-7c-GGb">
+                                <rect key="frame" x="17" y="376" width="341" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="umw-ht-PdC" kind="show" identifier="backJobs" id="nD5-RA-bxL"/>
+                        <outlet property="city" destination="PkE-HW-Kyr" id="elt-Kt-zGd"/>
+                        <outlet property="companyName" destination="GMp-aa-bsA" id="1pW-rA-7jy"/>
+                        <outlet property="descriptionJob" destination="pfo-7c-GGb" id="eJz-CQ-U4M"/>
+                        <outlet property="nation" destination="a7q-V3-SXx" id="G4n-Bt-Q9k"/>
+                        <outlet property="office" destination="swF-GR-4gD" id="PBj-Vp-afd"/>
+                        <outlet property="postDate" destination="rnE-Tj-vSB" id="XO4-bg-RKl"/>
+                        <outlet property="salary" destination="6gd-Am-RK8" id="J5y-tB-pkd"/>
+                        <outlet property="state" destination="LGb-Zn-nDy" id="jD9-xA-WgJ"/>
+                        <segue destination="ztI-2k-WeC" kind="show" identifier="backToDetailsJob" id="Gfs-f0-BI3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="503-69-Isq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1242" y="-313"/>
+            <point key="canvasLocation" x="797.60000000000002" y="-906.29685157421295"/>
         </scene>
     </scenes>
     <resources>
         <image name="4stars__nbqmqm.png" width="1138" height="287"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="nD5-RA-bxL"/>
-    </inferredMetricsTieBreakers>
 </document>

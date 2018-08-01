@@ -1,22 +1,15 @@
 //
-//  ProducerViewControler.swift
+//  SelectiveViewController.swift
 //  JobRural
 //
-//  Created by student on 27/07/18.
+//  Created by student on 31/07/18.
 //  Copyright © 2018 Reis do Gado. All rights reserved.
 //
 
 import UIKit
 
-class ProducerViewControler: UIViewController {
+class SelectiveViewController: UIViewController {
 
-    @IBAction func backJobs(_ sender: Any) {
-        performSegue(withIdentifier: "backToUpdateJob", sender: nil)
-    }
-    @IBAction func backJobs2(_ sender: Any) {
-        performSegue(withIdentifier: "backToNewJob", sender: nil)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

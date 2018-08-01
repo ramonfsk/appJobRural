@@ -11,11 +11,13 @@ import Foundation
 class Producer: User {
     var name: String?
     var lastName: String?
+    var companyName: String?
     var gender: String?
     var age: Int?
     var telephone: Int?
     var nation: String?
     var state: String?
+    var city: String?
     var amountOfWorkers: Int?
     var rankGeneral: Int?
     

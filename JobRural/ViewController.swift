@@ -13,19 +13,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var login: UITextField!
     @IBOutlet weak var password: UITextField!
     
-    var typeUser: Int? = nil
+    var typeUser: Int? = 0
     //obtem o tipo de perfil e usar no if
     
     @IBAction func loginAction() {
-        if typeUser == 1 {
+        if typeUser == 0 {
             performSegue(withIdentifier: "goProducer", sender: nil)
         } else {
-            performSegue(withIdentifier: "goWorker", sender: nil)
+            performSegue(withIdentifier: "goWorkers", sender: nil)
         }
     }
     
+    @IBAction func goSelectProfile() {
+        performSegue(withIdentifier: "goSelectProfile", sender: nil)
+    }
+    
     @IBAction func selectProducer(_ sender: Any) {
-        performSegue(withIdentifier: "goListWorkes", sender: nil)
+        performSegue(withIdentifier: "goListWorkers", sender: nil)
     }
 
     @IBAction func selectWorker(_ sender: Any) {
