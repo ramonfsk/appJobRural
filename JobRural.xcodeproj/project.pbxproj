@@ -15,14 +15,20 @@
 		3F0F006B210B4FDD0025C3E1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006A210B4FDD0025C3E1 /* User.swift */; };
 		3F0F006D210B52FD0025C3E1 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F006C210B52FD0025C3E1 /* Job.swift */; };
 		3F0F0078210B65060025C3E1 /* Producer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0077210B65060025C3E1 /* Producer.storyboard */; };
-		3F0F007A210B65660025C3E1 /* ProducerViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */; };
 		3F0F007E210B65AE0025C3E1 /* Worker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F007D210B65AE0025C3E1 /* Worker.storyboard */; };
 		3F0F0081210F2FD90025C3E1 /* 4stars__nbqmqm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */; };
 		3F0F0085210F40FD0025C3E1 /* Historic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F0084210F40FD0025C3E1 /* Historic.swift */; };
 		3F0F008B2110A09A0025C3E1 /* DetailsJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008A2110A09A0025C3E1 /* DetailsJobViewController.swift */; };
 		3F0F008D2110ADBA0025C3E1 /* SelectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008C2110ADBA0025C3E1 /* SelectiveViewController.swift */; };
-		3F0F008F2110ADF40025C3E1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008E2110ADF40025C3E1 /* ProfileViewController.swift */; };
+		3F0F008F2110ADF40025C3E1 /* ProfileWorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F008E2110ADF40025C3E1 /* ProfileWorkerViewController.swift */; };
 		3F0F00912110AE390025C3E1 /* ListOfVacanciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00902110AE390025C3E1 /* ListOfVacanciesViewController.swift */; };
+		3F0F00932111F16E0025C3E1 /* ManagerJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00922111F16E0025C3E1 /* ManagerJobViewController.swift */; };
+		3F0F00952111F1C20025C3E1 /* UpdateJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00942111F1C20025C3E1 /* UpdateJobViewController.swift */; };
+		3F0F00972111F1DA0025C3E1 /* NewJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00962111F1DA0025C3E1 /* NewJobViewController.swift */; };
+		3F0F00992111F54D0025C3E1 /* ProfileProducerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00982111F54D0025C3E1 /* ProfileProducerViewController.swift */; };
+		3F0F009B2111FD9C0025C3E1 /* WorkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F009A2111FD9C0025C3E1 /* WorkersViewController.swift */; };
+		3F0F009D2111FE620025C3E1 /* HistoryWorkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F009C2111FE620025C3E1 /* HistoryWorkersViewController.swift */; };
+		3F0F009F2111FF480025C3E1 /* HistoryJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F009E2111FF480025C3E1 /* HistoryJobsViewController.swift */; };
 		3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */; };
 		3F0FFFFA210B3A380025C3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF9210B3A380025C3E1 /* ViewController.swift */; };
 		3F0FFFFD210B3A390025C3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FFFFB210B3A390025C3E1 /* Main.storyboard */; };
@@ -60,14 +66,20 @@
 		3F0F006A210B4FDD0025C3E1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F0F006C210B52FD0025C3E1 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		3F0F0077210B65060025C3E1 /* Producer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Producer.storyboard; sourceTree = "<group>"; };
-		3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerViewControler.swift; sourceTree = "<group>"; };
 		3F0F007D210B65AE0025C3E1 /* Worker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Worker.storyboard; sourceTree = "<group>"; };
 		3F0F0080210F2FD90025C3E1 /* 4stars__nbqmqm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4stars__nbqmqm.png; path = ../../../../Downloads/4stars__nbqmqm.png; sourceTree = "<group>"; };
 		3F0F0084210F40FD0025C3E1 /* Historic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historic.swift; sourceTree = "<group>"; };
 		3F0F008A2110A09A0025C3E1 /* DetailsJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsJobViewController.swift; sourceTree = "<group>"; };
 		3F0F008C2110ADBA0025C3E1 /* SelectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectiveViewController.swift; sourceTree = "<group>"; };
-		3F0F008E2110ADF40025C3E1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3F0F008E2110ADF40025C3E1 /* ProfileWorkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileWorkerViewController.swift; sourceTree = "<group>"; };
 		3F0F00902110AE390025C3E1 /* ListOfVacanciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfVacanciesViewController.swift; sourceTree = "<group>"; };
+		3F0F00922111F16E0025C3E1 /* ManagerJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerJobViewController.swift; sourceTree = "<group>"; };
+		3F0F00942111F1C20025C3E1 /* UpdateJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateJobViewController.swift; sourceTree = "<group>"; };
+		3F0F00962111F1DA0025C3E1 /* NewJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewJobViewController.swift; sourceTree = "<group>"; };
+		3F0F00982111F54D0025C3E1 /* ProfileProducerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileProducerViewController.swift; sourceTree = "<group>"; };
+		3F0F009A2111FD9C0025C3E1 /* WorkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkersViewController.swift; sourceTree = "<group>"; };
+		3F0F009C2111FE620025C3E1 /* HistoryWorkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryWorkersViewController.swift; sourceTree = "<group>"; };
+		3F0F009E2111FF480025C3E1 /* HistoryJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryJobsViewController.swift; sourceTree = "<group>"; };
 		3F0FFFF4210B3A380025C3E1 /* JobRural.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobRural.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0FFFF9210B3A380025C3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,8 +145,9 @@
 				3F0F007D210B65AE0025C3E1 /* Worker.storyboard */,
 				3F0F008A2110A09A0025C3E1 /* DetailsJobViewController.swift */,
 				3F0F008C2110ADBA0025C3E1 /* SelectiveViewController.swift */,
-				3F0F008E2110ADF40025C3E1 /* ProfileViewController.swift */,
+				3F0F008E2110ADF40025C3E1 /* ProfileWorkerViewController.swift */,
 				3F0F00902110AE390025C3E1 /* ListOfVacanciesViewController.swift */,
+				3F0F009E2111FF480025C3E1 /* HistoryJobsViewController.swift */,
 			);
 			name = WorkerDAO;
 			sourceTree = "<group>";
@@ -144,7 +157,12 @@
 			children = (
 				3F0F0068210B49F80025C3E1 /* Producer.swift */,
 				3F0F0077210B65060025C3E1 /* Producer.storyboard */,
-				3F0F0079210B65660025C3E1 /* ProducerViewControler.swift */,
+				3F0F00922111F16E0025C3E1 /* ManagerJobViewController.swift */,
+				3F0F00942111F1C20025C3E1 /* UpdateJobViewController.swift */,
+				3F0F00962111F1DA0025C3E1 /* NewJobViewController.swift */,
+				3F0F00982111F54D0025C3E1 /* ProfileProducerViewController.swift */,
+				3F0F009A2111FD9C0025C3E1 /* WorkersViewController.swift */,
+				3F0F009C2111FE620025C3E1 /* HistoryWorkersViewController.swift */,
 			);
 			name = ProducerDAO;
 			sourceTree = "<group>";
@@ -384,15 +402,21 @@
 			files = (
 				3F0F006D210B52FD0025C3E1 /* Job.swift in Sources */,
 				3F0F00912110AE390025C3E1 /* ListOfVacanciesViewController.swift in Sources */,
+				3F0F009B2111FD9C0025C3E1 /* WorkersViewController.swift in Sources */,
+				3F0F00992111F54D0025C3E1 /* ProfileProducerViewController.swift in Sources */,
 				3F0FFFFA210B3A380025C3E1 /* ViewController.swift in Sources */,
 				3F0F0069210B49F80025C3E1 /* Producer.swift in Sources */,
 				3F0F008D2110ADBA0025C3E1 /* SelectiveViewController.swift in Sources */,
 				3F0F008B2110A09A0025C3E1 /* DetailsJobViewController.swift in Sources */,
+				3F0F00932111F16E0025C3E1 /* ManagerJobViewController.swift in Sources */,
 				3F0F0029210B423F0025C3E1 /* Worker.swift in Sources */,
-				3F0F008F2110ADF40025C3E1 /* ProfileViewController.swift in Sources */,
+				3F0F00972111F1DA0025C3E1 /* NewJobViewController.swift in Sources */,
+				3F0F009F2111FF480025C3E1 /* HistoryJobsViewController.swift in Sources */,
+				3F0F008F2110ADF40025C3E1 /* ProfileWorkerViewController.swift in Sources */,
+				3F0F00952111F1C20025C3E1 /* UpdateJobViewController.swift in Sources */,
 				3F0F006B210B4FDD0025C3E1 /* User.swift in Sources */,
-				3F0F007A210B65660025C3E1 /* ProducerViewControler.swift in Sources */,
 				3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */,
+				3F0F009D2111FE620025C3E1 /* HistoryWorkersViewController.swift in Sources */,
 				3F0F0085210F40FD0025C3E1 /* Historic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

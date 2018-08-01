@@ -12,7 +12,7 @@
         <!--Vagas-->
         <scene sceneID="ipV-ET-zZm">
             <objects>
-                <viewController id="kdZ-bv-ttA" customClass="ProducerViewControler" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kdZ-bv-ttA" customClass="ManagerJobViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hPd-i9-fF9"/>
                         <viewControllerLayoutGuide type="bottom" id="t37-gM-gIG"/>
@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="NjW-H6-znd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" id="NjW-H6-znd">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NjW-H6-znd" id="Nn3-1z-smT">
@@ -35,6 +35,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="kdZ-bv-ttA" id="CL7-fO-7qF"/>
+                                    <outlet property="delegate" destination="kdZ-bv-ttA" id="Mj4-jz-TtK"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gerenciamento de Vagas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVK-cW-84B">
                                 <rect key="frame" x="16" y="28" width="343" height="39"/>
@@ -51,24 +55,27 @@
                                 <state key="normal" title="Adicionar">
                                     <color key="titleColor" red="0.94817653489999998" green="1" blue="0.9597616846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="addNewJob:" destination="kdZ-bv-ttA" eventType="touchUpInside" id="zIt-yC-iCL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Vagas" id="S6J-ot-6gm"/>
                     <connections>
-                        <segue destination="u4G-19-ue9" kind="show" identifier="goNewJob" id="gQi-7Z-xhU"/>
-                        <segue destination="dvt-lG-kHs" kind="show" identifier="goUpdateJob" id="oja-UX-Mue"/>
+                        <segue destination="u4G-19-ue9" kind="show" identifier="goNewJob" id="tKd-8P-tez"/>
+                        <segue destination="dvt-lG-kHs" kind="show" identifier="goUpdateJob" id="6VH-lQ-uUA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfF-mj-jxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-217" y="-1015"/>
+            <point key="canvasLocation" x="-177" y="-1011"/>
         </scene>
         <!--Seletivas-->
         <scene sceneID="yqN-XG-PyC">
             <objects>
-                <viewController id="12Q-wy-3un" customClass="ProducerViewControler" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="12Q-wy-3un" customClass="WorkersViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="w7w-pn-1Ay"/>
                         <viewControllerLayoutGuide type="bottom" id="cSx-s4-63E"/>
@@ -92,8 +99,8 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Candidatos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixk-ju-sgH">
-                                <rect key="frame" x="16" y="20" width="184" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trabalhadores" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixk-ju-sgH">
+                                <rect key="frame" x="16" y="20" width="210" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -106,12 +113,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9W-WO-Tpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="-142"/>
+            <point key="canvasLocation" x="108" y="-142.57871064467767"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="2dU-eB-MnX">
             <objects>
-                <viewController id="9Eh-Mx-GfI" customClass="ProducerViewControler" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Eh-Mx-GfI" customClass="ProfileProducerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vSj-Oz-4I2"/>
                         <viewControllerLayoutGuide type="bottom" id="qWG-xM-ZoG"/>
@@ -267,7 +274,7 @@
         <!--Historico-->
         <scene sceneID="ghn-NW-t29">
             <objects>
-                <viewController id="VdI-qJ-jBg" customClass="ProducerViewControler" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VdI-qJ-jBg" customClass="HistoryWorkersViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IWw-Vz-fwD"/>
                         <viewControllerLayoutGuide type="bottom" id="AfD-Kc-p7d"/>
@@ -327,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="-1210" y="134"/>
         </scene>
-        <!--Producer View Controler-->
+        <!--New Job View Controller-->
         <scene sceneID="BK0-YF-mHb">
             <objects>
-                <viewController id="u4G-19-ue9" customClass="ProducerViewControler" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u4G-19-ue9" customClass="NewJobViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SFK-2a-Lro"/>
                         <viewControllerLayoutGuide type="bottom" id="XfE-qs-dlK"/>
@@ -462,24 +469,24 @@
                                     <color key="titleColor" red="0.94817653489999998" green="1" blue="0.9597616846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="backJobs:" destination="u4G-19-ue9" eventType="touchUpInside" id="t0P-EW-pl8"/>
+                                    <action selector="backToManagerJobs:" destination="u4G-19-ue9" eventType="touchUpInside" id="ylK-0z-gBy"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="dWK-jl-7YR" kind="show" id="pib-nE-BgY"/>
+                        <segue destination="dWK-jl-7YR" kind="show" identifier="backToNewJob" id="pib-nE-BgY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfK-HZ-Vr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1686" y="-632"/>
         </scene>
-        <!--Producer View Controler-->
+        <!--Update Job View Controller-->
         <scene sceneID="3qu-Ke-Npx">
             <objects>
-                <viewController id="dvt-lG-kHs" customClass="ProducerViewControler" sceneMemberID="viewController">
+                <viewController id="dvt-lG-kHs" customClass="UpdateJobViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UOn-cc-seg"/>
                         <viewControllerLayoutGuide type="bottom" id="LfI-6x-jxF"/>
@@ -635,7 +642,7 @@
                                     <color key="titleColor" red="0.94817653489999998" green="1" blue="0.9597616846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="backJobs2:" destination="dvt-lG-kHs" eventType="touchUpInside" id="tDr-vf-wWp"/>
+                                    <action selector="backManagerJobs:" destination="dvt-lG-kHs" eventType="touchUpInside" id="fjS-QN-r6l"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -647,7 +654,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JpE-2X-dVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930" y="-1214"/>
+            <point key="canvasLocation" x="1033" y="-1204"/>
         </scene>
     </scenes>
     <resources>

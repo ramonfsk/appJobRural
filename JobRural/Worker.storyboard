@@ -105,7 +105,7 @@
         <!--Perfil-->
         <scene sceneID="jPO-kO-vAS">
             <objects>
-                <viewController id="ZV2-rS-q53" customClass="ProfileViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZV2-rS-q53" customClass="ProfileWorkerwViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y03-SK-GMa"/>
                         <viewControllerLayoutGuide type="bottom" id="PWJ-2y-XH4"/>
@@ -261,7 +261,7 @@
         <!--Historico-->
         <scene sceneID="FFC-AI-Ehq">
             <objects>
-                <viewController id="h14-fh-rhR" customClass="WorkerViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="h14-fh-rhR" customClass="HistoryJobsViewController" customModule="JobRural" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JFu-gh-Jpv"/>
                         <viewControllerLayoutGuide type="bottom" id="Fn9-0y-S5Z"/>

@@ -1,14 +1,14 @@
 //
-//  ProfileViewController.swift
+//  WorkersViewController.swift
 //  JobRural
 //
-//  Created by student on 31/07/18.
+//  Created by student on 01/08/18.
 //  Copyright © 2018 Reis do Gado. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class WorkersViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
