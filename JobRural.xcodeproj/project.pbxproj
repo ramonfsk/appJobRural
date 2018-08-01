@@ -29,6 +29,7 @@
 		3F0F009B2111FD9C0025C3E1 /* WorkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F009A2111FD9C0025C3E1 /* WorkersViewController.swift */; };
 		3F0F009D2111FE620025C3E1 /* HistoryWorkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F009C2111FE620025C3E1 /* HistoryWorkersViewController.swift */; };
 		3F0F009F2111FF480025C3E1 /* HistoryJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F009E2111FF480025C3E1 /* HistoryJobsViewController.swift */; };
+		3F0F00A1211204470025C3E1 /* DetailsWorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F00A0211204470025C3E1 /* DetailsWorkerViewController.swift */; };
 		3F0FFFF8210B3A380025C3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */; };
 		3F0FFFFA210B3A380025C3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FFFF9210B3A380025C3E1 /* ViewController.swift */; };
 		3F0FFFFD210B3A390025C3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FFFFB210B3A390025C3E1 /* Main.storyboard */; };
@@ -80,6 +81,7 @@
 		3F0F009A2111FD9C0025C3E1 /* WorkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkersViewController.swift; sourceTree = "<group>"; };
 		3F0F009C2111FE620025C3E1 /* HistoryWorkersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryWorkersViewController.swift; sourceTree = "<group>"; };
 		3F0F009E2111FF480025C3E1 /* HistoryJobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryJobsViewController.swift; sourceTree = "<group>"; };
+		3F0F00A0211204470025C3E1 /* DetailsWorkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsWorkerViewController.swift; sourceTree = "<group>"; };
 		3F0FFFF4210B3A380025C3E1 /* JobRural.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobRural.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0FFFF7210B3A380025C3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0FFFF9210B3A380025C3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				3F0F00982111F54D0025C3E1 /* ProfileProducerViewController.swift */,
 				3F0F009A2111FD9C0025C3E1 /* WorkersViewController.swift */,
 				3F0F009C2111FE620025C3E1 /* HistoryWorkersViewController.swift */,
+				3F0F00A0211204470025C3E1 /* DetailsWorkerViewController.swift */,
 			);
 			name = ProducerDAO;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				3F0F008B2110A09A0025C3E1 /* DetailsJobViewController.swift in Sources */,
 				3F0F00932111F16E0025C3E1 /* ManagerJobViewController.swift in Sources */,
 				3F0F0029210B423F0025C3E1 /* Worker.swift in Sources */,
+				3F0F00A1211204470025C3E1 /* DetailsWorkerViewController.swift in Sources */,
 				3F0F00972111F1DA0025C3E1 /* NewJobViewController.swift in Sources */,
 				3F0F009F2111FF480025C3E1 /* HistoryJobsViewController.swift in Sources */,
 				3F0F008F2110ADF40025C3E1 /* ProfileWorkerViewController.swift in Sources */,
